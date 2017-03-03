@@ -81,9 +81,9 @@ void add(struct tree *root)
     int add_ok = 0, high = 0, up_No;
     /*子節點建構*/
     child =(struct tree *)malloc(sizeof(struct tree));
-    memset(child, 0, sizeof(struct tree));
+    memset(child, 0, sizeof(struct tree));//全部歸零
     printf("Please input a value:");
-    scanf("%d",&child->key);
+    scanf("%d",&child->key);//輸入值進入子節點
 
     /*選擇安插位置*/
     do
@@ -129,7 +129,7 @@ void addq(struct tree *item) {
 struct tree* deleteq() {
     return queue[++front];
 }
-
+//asdsasdasd
 void display(struct tree *root)//印出樹型
 {
     int final[MAX_queue],i=0,j=0,power,run,run_total_1,run_total_2,high_1,high_2;
