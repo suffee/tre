@@ -1,4 +1,4 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
 #include<math.h>
@@ -9,7 +9,7 @@ struct tree {
     int No;                //節點編號
     int key;               //節點存的值
     struct tree *back;     //回到父節點的指標
-    struct tree *left;     //往左邊跑的指標
+    struct tree *left;     //往左邊跑的指標XD
     struct tree *right;    //往右邊跑的指標
 };
 
